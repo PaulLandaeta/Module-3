@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.18.9",
     "@types/pg": "^8.6.6",
+    "babel-cli": "^6.26.0",
     "dotenv": "^16.0.3",
     "nodemon": "^2.0.20"
   },
