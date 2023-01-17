@@ -28,7 +28,7 @@ routes.get("/usuarios/promedio-edad", async (req, res) => {
 
 routes.get("/status", async (req, res) => {
   const response = {
-    nameSystem: "success",
+    nameSystem: "api-users",
     version: "0.0.1",
     developer: "Paul Wilker Landaeta Flores",
     email: "paulwilkerlf@gmail.com",
