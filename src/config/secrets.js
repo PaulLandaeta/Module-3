@@ -17,8 +17,8 @@ export const NODE_ENV = node_env;
 
 // port is default to 5000 unless env is specified
 let server_port;
-if (process.env.NODE_PORT) {
-  server_port = process.env.NODE_PORT;
+if (process.env.PORT) {
+  server_port = process.env.PORT;
 } else {
   server_port = 5000;
 }
